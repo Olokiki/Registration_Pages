@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css  ">
+    <title>Login Page</title>
+</head>
+<body>
+    <section class="app_main_login">
+        <main>
+            <div class="appcontainer">
+                <div class="app_main_login_form">
+                    <h1 class="app_main_login-header">Login</h1>
+
+                    <div class="app_main_login_welcome">
+                        <p>Welcome! Please enter your details</p>
+
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label class="form-email-pass" for="email">Email address</label>
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter your email" required />
+                            </div>
+                            <div class="form-group">
+                                <label class="form-email-pass" for="password">Password</label>
+                                <i class="fa-solid fa-lock"></i>
+                                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required />
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="remember" />
+                                <label class="form-check-label" for="remember">Remember me</label
+                  >
+                  <a href="#" class="app_main_login-forgot">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <a href="./end.html"></a>
+                    Sign In</button>
+
+                <div class="app_main_login-social">
+                  <p>Or Sign in with</p>
+                  <button class="app__main_button-google">
+                    <a href="#" class="app_main_login-social-link">
+                      <i class="fab fa-google"></i>Sign in with Google</a>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="app_main_login-dont-have-account">
+              <p>
+                Don't have an account?
+                <button class="app__main_signup">
+                  <a href="./index.html">Sign Up</a>
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+</body>
+</html>

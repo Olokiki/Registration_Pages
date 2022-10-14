@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Registration Page</title>
+</head>
+<body>
+    <section class="app__main_register">
+        <main>
+            <div class="app__main_register-container">
+                <h1 class="app__main_register-header">Register</h1>
+                <div class="app__main_register-form">
+                    <form action="#" method="POST">
+
+                        <div class="form-group">
+                            <label class="form-email-pass" for="first_name">First Name</label>
+                            <input type="text" class="form-control" id="first_name" placeholder="First Name" name="first_name" required />
+                        </div>
+                        <div class="form-group">
+                            <label class="form-email-pass" for="last_name">Last Name</label>
+                            <input type="text" class="form-control" id="last_name" placeholder="Last Name" name="last_name" required />
+                        </div>
+                        <div class="form-group">
+                            <label class="form-email-pass" for="phone_number">Phone Number</label>
+                            <input type="text" class="form-control" id="phone_number" placeholder="Phone Number" name="phone_number" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-email-pass" for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="gender"> Select you gender</label>
+                            <select name="gender">
+                        <option value="none" selected>Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="female">Non-binary</option>
+                        <option value="other">Prefer not to say</option>
+                    </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-email-pass" for="date_of_birth">Date of Birth</label>
+                            <input type="date" class="form-control" id="date_of_birth" placeholder="Date of Birth" name="date_of_birth" required />
+                        </div>
+            
+                        <div class="form-group">
+                            <label class="form-email-pass" for="color_selector">Pick a Color</label>
+                            <input type="color" class="form-control" id="pick_a_color" placeholder="Color picker" name="pick_a_color" required />
+                        </div>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section class="app__main-footer">
+        <footer class="footer">
+            <div class="app__main-container-footer">
+                <div class="app__main-footer__links">
+                    <ul>
+                        <li>
+                            <a href="https://twitter.com/Olokiki_" target="_blank">
+                                <i class="fa-brands fa-twitter-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/Olokiki_" target="_blank">
+                                <i class="fa-brands fa-instagram-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/eniola-ore-aruwaji-b66b451b2/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Olokiki" target="_blank">
+                                <i class="fa-brands fa-github-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__copyright">
+                    <span>
+              <i class="fa-solid fa-copyright"></i>
+              2022 Eniola Ore-Aruwaji
+            </span>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
